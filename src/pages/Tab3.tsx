@@ -6,7 +6,7 @@ import {
   IonTitle,
   IonToolbar
 } from '@ionic/react'
-import TabThreeContainer from '../components/TabThreeContainer'
+import TabOneContainer from '../components/TabOneContainer'
 import './Tab3.css'
 
 const Tab3: React.FC = () => {
@@ -23,7 +23,7 @@ const Tab3: React.FC = () => {
             <IonTitle size='large'>Tab 3</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <TabThreeContainer name='Tab 3 page' />
+        <TabOneContainer name='Tab 3 page' />
       </IonContent>
     </IonPage>
   )
